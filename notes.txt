@@ -1,0 +1,42 @@
+Section 1: Home Page
+- Navbar:
+    -> About us
+    -> Services
+    -> Philosphy
+    -> About The Founder
+    -> Contact us
+- Logo
+- Stock Images
+
+Section 2: About us
+- Logo
+- Text
+- Stock Image
+
+Section 3: Finicial Planning with help of following
+           Products
+- 2D Illustrations of Products
+
+Section 4: Our Philosphy
+- Logo
+- Text
+- Stock Image
+
+Section 5: About The Founder
+- Logo
+- Text
+- DG Dad Image
+- Footer
+
+Colour Pallette:
+
+- Background
+    #d6dce5 (Grey)
+    #e0ebf5 (Pastel Blue)
+
+- Accents
+    #ffc000 (Taxi Yellow)
+    #04a66d (Pastel Green)
+
+- Primary
+    #015aae (Primary Blue)
