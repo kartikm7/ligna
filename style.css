@@ -260,7 +260,7 @@ footer ul{
         width: 100px;
         height: 100px;
         margin-left: 1rem;
-        margin-right: 5rem ;
+        margin-right: 2.5rem ;
     }
     #founder-image{
         width: 45%; 
@@ -295,7 +295,7 @@ footer ul{
             width: 150px;
             height: 150px;
             margin-left: 1rem;
-            margin-right: 5rem ;
+            margin-right: 2.5rem ;
         }
         #founder-image{
             width: 35%;
@@ -322,7 +322,7 @@ footer ul{
     h1{
         font-size: 65%;
     }
-    li{
+    .about ul li{
         font-size: 0.65rem;
     }
     .about-image,#philo-image{
@@ -330,10 +330,10 @@ footer ul{
         width: 100px;
         height: 100px;
         margin-left: 1rem;
-        margin-right: 5rem ;
+        margin-right: 1rem ;
     }
     #founder-image{
-        width: 40%; 
+        width: 35%; 
         float: left;
         margin-left: 1rem;  
     }
@@ -358,17 +358,17 @@ footer ul{
         font-size: 50%;
     }
     li{
-        font-size: 0.6rem;
+        font-size: 0.55rem;
     }
     .about-image,#philo-image{
         float: left;
         width: 100px;
         height: 100px;
         margin-left: 1rem;
-        margin-right: 2.5rem ;
+        margin-right: 1.5rem ;
     }
     #founder-image{
-        width: 40%; 
+        width: 40%;
         float: left;
         margin-left: 0.5rem;  
     }
