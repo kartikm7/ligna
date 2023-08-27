@@ -4,6 +4,20 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+.description{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    color: white;
+    background-color: #015aae;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 1000;
+    opacity: 1;
+    width: 100%;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -15,29 +29,25 @@
     align-items: center;
     justify-content: center;
 }
-#home{
-    /* background-color: #d6dce5; */
-    background-image: url(./assets/background.png);
+/* #home{
+    background-color: #d6dce5; */
+    /* background-image: url(./assets/background.png); */
+
+#girl{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 header{
-    display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
-header ul li{
-    list-style-type:none;
-    display: inline-block;
-    margin-top: 2.5%;
-    padding: 10px 20px;
-}
-header ul li:hover{
-    text-decoration: underline;
-    transition: 5s ease-in-out; 
-}
+
 .head-logo{
     display: block;
     margin: 0 auto;
@@ -69,14 +79,14 @@ h1{
 }
 .about-image{
     float: left;
-    margin-top: 12.5%;
-    width: 250px;
-    height: fit-content;
-    padding-right: 5%;
+    width: 350px;
+    height: 300px;
+    margin-right: 10rem  ;
 }
+
 #about ul li {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   
 #about ul {
@@ -133,13 +143,15 @@ padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100%s;
+    width:100%;
 }
 #philo-image{
     float: left;
-    width: 250px;
+    width: 350px;
+    height: 300px;
     height: fit-content;
-    padding-right: 5%;
+    margin-left: 15%;
+    margin-bottom: 5rem;
 }
 #philosphy ul li {
     margin: 0;
@@ -165,11 +177,12 @@ padding: 10px;
     justify-content: center;
     width:100%s;
 }
-#founder-image{
+#founder-image{ 
     float: left;
     width: 300px;
     height: fit-content;
-    padding-right: 5%;
+    margin-left: 7rem;
+    padding-top: 12rem;
 }
 #textbox ul{
     margin: 0 auto;
@@ -181,6 +194,7 @@ padding: 10px;
 footer{
     background-color: #015aae;
     width: 100%;
+    height: 100%;
     text-align: justify;
     margin-top: 4%;
 }
@@ -192,4 +206,182 @@ footer ul{
 @keyframes fadeIn{
     0%{opacity: 0;}
     100%{opacity: 1;}
+}
+
+.title{
+    margin-bottom: 5rem;
+}
+
+.nav-item {
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.footer-text {
+    margin: 1rem;
+    text-align: center;
+}
+
+.mail {
+    padding: 0.5rem;
+}
+
+.phone {
+    padding: 0.5rem;
+}
+
+.address {
+    padding: 0.5rem;
+}
+
+.text {
+    margin-top: 10rem
+}
+
+.about-text {
+    margin-bottom: 5rem;
+}
+
+/* Your existing CSS rules here */
+
+/* Small screens */
+@media screen and (max-width: 768px) {  
+    .title{
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 75%;
+    }
+    li{
+        font-size: 1rem;
+    }
+    .about-image,#philo-image{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 1rem;
+        margin-right: 5rem ;
+    }
+    #founder-image{
+        width: 45%; 
+        float: left;
+        margin-left: 1rem;  
+    }
+    #textbox{
+        margin-left: 0.75rem ;
+    }
+    .box{
+    height: 150px;
+    }
+    .services-img{
+        height: 75px;
+    }
+    .services-text{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 600px) {  
+        .title{
+            margin-bottom: 1rem;
+        }
+        h1{
+            font-size: 75%;
+        }
+        li{
+            font-size: 0.75rem;
+        }
+        .about-image,#philo-image{
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-left: 1rem;
+            margin-right: 5rem ;
+        }
+        #founder-image{
+            width: 35%;
+            margin-top: 15%;
+            margin-right: 1rem;
+        }
+        #textbox{
+            margin-left: 1rem ;
+        }
+        .box{
+        height: 110px;
+        }
+        .services-img{
+            height: 50px;
+        }
+        .services-text{
+            font-size: smaller;
+        }
+}
+@media screen and (max-width: 450px) {  
+    .title{
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 65%;
+    }
+    li{
+        font-size: 0.65rem;
+    }
+    .about-image,#philo-image{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 1rem;
+        margin-right: 5rem ;
+    }
+    #founder-image{
+        width: 40%; 
+        float: left;
+        margin-left: 1rem;  
+    }
+    #textbox{
+        margin-left: 0.75rem ;
+    }
+    .box{
+    height: 90px;
+    }
+    .services-img{
+        height: 50px;
+    }
+    .services-text{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 320px) {  
+    .title{
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 50%;
+    }
+    li{
+        font-size: 0.6rem;
+    }
+    .about-image,#philo-image{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 1rem;
+        margin-right: 2.5rem ;
+    }
+    #founder-image{
+        width: 40%; 
+        float: left;
+        margin-left: 0.5rem;  
+    }
+    #textbox{
+        margin-left: 0.75rem ;
+    }
+    .box{
+    height: 90px;
+    }
+    .services-img{
+        height: 50px;
+    }
+    .services-text{
+        font-size: 8.5px;
+    }
 }

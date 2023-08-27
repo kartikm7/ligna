@@ -8,36 +8,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2fTAiA6T5JggWtv6Uw7WDO4n2aHpvFNRa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <div class="sections" id="home">
-                <header>
-                    <ul>
-                        <li>About us</li>
-                        <li>Services</li>
-                        <li>Philosphy</li>
-                        <li>About The Founder</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </header>
-                <img class="head-logo" src="./assets/title-logo.png" alt="Company Logo">
+    <header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <img src="./assets/ligna-logo_1.png" class="logo_img" alt="logo" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#philosphy">Philosophy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#founder">About the founder</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact us</a>
+              </li>
+            </ul>
+          </div>
         </div>
+    </nav>
+
+    </header>
+    <div class="sections" id="home">
+    <img src="./assets/girl near lake.jpg" id="girl" alt="logo" width="100%">
+    <div class="description">
+      <h1 class="big-title-home">GUIDING YOU ON YOUR <br />
+          WEALTH CREATION JOURNEY</h1>
+      </div> </div>
+
+        
         <div class="sections" id="about">
-            <h1>About Us</h1>
+            <h1  class="title">About Us</h1>
             <div class="section2">
-                <img src="./assets/about-stock-image.png" class="about-image" alt="Building Wealth Image">  
-            <ul>
+                <img src="./assets/about-stock-image.png" class="about-image" alt="Building Wealth Image"> 
+
+            <ul class="about-text">
                 <li>
                     Ligna Wealth draws its inspiration from the Corsican language, where "Ligna" translates to "straight line." This concept symbolizes simplicity and transparency, guiding our approach to providing clear and understandable advice to our clients.   
                 </li>
+                <br>
                 <li>
-                    We are AMFI Registered Mutual Fund Distributor based in Mumbai, founded by Mr. Madhur Gundecha, a highly experienced professional. Our firm specializes in delivering personalized and comprehensive financial solutions, assisting individuals in achieving their financial objectives.  
+                    The firm is founded by Mr. Madhur Gundecha, a highly experienced & qualified professional.
                 </li>
+                <br>
                 <li>
-                    Our area of expertise lies in the management of High Net Worth Individuals (HNIs), Ultra High Net Worth Individuals (UHNIs), and Non-Resident Indian (NRI) clients. 
+                    Our firm specializes in delivering personalized and comprehensive financial solutions according to the risk profile of the client.
                 </li>
+                <br>
+                <li>
+                    We have an uncompromising Client's interest first policy.   
+                </li>
+                <br>
                 <li>
                     We are an AMFI Registered Mutual Fund Distributor (ARN-242950) and SEBI Registered Research Analyst (INHO00009375). 
                 </li>
@@ -45,61 +83,63 @@
             </div>            
         </div>
         <div class="sections" id="services">
-            <h1>Our Services</h1>
+            <h1 class="title">Our Services</h1>
         <div class="section-row1">
             <div class="box-container">
                 <div class="box">
-                    <img src="assets/mutualfunds.png">
-                    <h3>Mutual Funds</h3>
+                    <img src="assets/mutualfunds.png" class="services-img">
+                    <h3 class="services-text">Mutual Funds</h3>
                 </div>
                 <div class="box">
-                    <img src="assets/pms.png">
-                    <h3>Portfolio Management System</h3>
+                    <img src="assets/pms.png" class="services-img">
+                    <h3 class="services-text">Portfolio Management System</h3>
                 </div>
                 <div class="box">
-                    <img src="assets/aif.png">
-                    <h3>Alternate Investment Fund</h3>
+                    <img src="assets/aif.png" class="services-img">
+                    <h3 class="services-text">Alternate Investment Fund</h3>
                 </div>
                 <div class="box">
-                    <img src="assets/smallcase.png">
-                    <h3>Small Case</h3>
+                    <img src="assets/smallcase.png" class="services-img">
+                    <h3 class="services-text">Small Case</h3>
                 </div>
             </div>
             <div class="row-container">
                 <div class="box">
-                    <img src="assets/taxplanning.png">
-                    <h3>Tax Planning</h3>
+                    <img src="assets/taxplanning.png" class="services-img">
+                    <h3 class="services-text">Tax Planning</h3>
                 </div>
                 <div class="box">
-                    <img src="assets/risk.png">
-                    <h4>Risk Management Solutions</h4>
+                    <img src="assets/risk.png" class="services-img">
+                    <h4 class="services-text" id="smaller-text">Risk Management Solutions</h4>
                 </div>
                 <div class="box">
-                    <img src="assets/estate.png">
-                    <h4>Estate & Legacy Planning</h4>
+                    <img src="assets/estate.png" class="services-img">
+                    <h4 class="services-text">Estate & Legacy Planning</h4>
                 </div>
             </div>            
         </div>
         </div>
         <div class="sections" id="philosphy">
-            <h1>Our Philosphy</h1>
+            <h1  class="title">Our Philosphy</h1>
             <div class="section4">
                 <img src="./assets/philosophy-stock-image.png" class="philosophy-image" id="philo-image" alt="Contract Signing Image">  
             <ul>
                 <li>
                     In the words of Tony Hsieh, CEO of Zappos, we believe that customer service shouldn't be limited to a single department; it should be ingrained throughout the entire organisation. 
                 </li>
+                <br>
                 <li>
                     At Ligna Wealth, we strive to embody this philosophy, ensuring that every interaction with our clients reflects our dedication to exceptional service and expertise.
                 </li>
+                <br>
                 <li>
                     We aim to be your trusted financial expert, offering comprehensive solutions and guidance to help you achieve your financial goals.
                 </li>
+                <br>
             </ul>
             </div>        
         </div>
         <div class="sections" id="founder">
-            <h1>Our Founder</h1>
             <div class="section5">
             <div class="text" id="textbox">
                 <h2>Experience</h2>
@@ -108,27 +148,46 @@
                         With over 25 years of experience in personal investing, Mr. Gundecha has honed his skills and gained valuable insights into the world of finance. Prior to June 2023, he held prominent positions in the corporate sector, where he led finance functions for leading corporates. This experience provided him with a deep understanding of corporate finance, financial planning, and strategic decision-making. 
                     </li>
                 </ul>
+                <br>
                 <h2>Academics</h2>
                 <ul>
                     <li>
-                        Mr. Madhur Gundecha is a highly qualified professional with a strong background in finance. His academic achievements include being a Chartered Financial Analyst (CFA), a Chartered Accountant (Rank Holder), CERTIFIED FINANCIAL PLANNERCM and a Cost Accountant. These designations demonstrate his expertise in financial analysis, accounting, and cost management.
+                        Mr. Madhur Gundecha is a highly qualified professional with a strong background in finance. His academic achievements include being a Chartered Financial Analyst (CFA), a Chartered Accountant (Rank Holder), CERTIFIED FINANCIAL PLANNER<sup>CM</sup> and a Cost Accountant.
                     </li>
                 </ul>
-            </div>
-            
+                <br>
+                <br>
+                
+            </div>  
             <img src="./assets/dg-dad-gradient-image.png" class="founder-image" id="founder-image" alt="Founder Image">  
             </div>
             <footer>
-                <ul>
-                    <li><i class="fa fa-envelope"></i> info@lignawealth.com
+                <ul class="footer-text" id="footer">
+                    <h1>Contact Us</h1>
+                    <li class="mail"><i class="fa fa-envelope"></i> info@lignawealth.com
                     </li>
-                    <li><i class="fa fa-phone"></i>+91 9820765887
+                    <li class="phone"><i class="fa fa-phone"></i>+91 9820765887
                     </li>
-                    <li><i class="fa fa-location-dot"></i>A-1002, Tulsi Sagar, Plot no. 106, Sector 28 New, Nerul West, Navi Mumbai - 400706
+                    <li class="address"><i class="fa fa-location-dot"></i>A-1002, Tulsi Sagar, Plot no. 106, Sector 28 New, Nerul West, Navi Mumbai - 400706
                     </li>
                 </ul>
             </footer>       
+        
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    const navbarToggler = document.getElementById("navbar-toggler");
+                    const navbarCollapse = document.getElementById("navbarSupportedContent");
+            
+                    navbarToggler.addEventListener("click", function() {
+                        if (navbarCollapse.classList.contains("show")) {
+                            navbarCollapse.classList.remove("show");
+                        } else {
+                            navbarCollapse.classList.add("show");
+                        }
+                    });
+                });
+            </script>
         </div>
-    </div>
+        
 </body>
 </html>
