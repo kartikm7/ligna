@@ -149,7 +149,7 @@ padding: 10px;
     float: left;
     width: 350px;
     height: 350px;
-    margin-right: 10rem; /*Change margin-right to margin-left*/
+    margin-right: 10rem; /*Change margin-right to margin-left*/ 
 }
 
 #philosphy ul li {
@@ -241,6 +241,97 @@ footer ul{
     margin-bottom: 5rem;
 }
 
+.navbar-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-logo p{
+    font-size: 0.75rem;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+}
+
+.collapse p{
+    text-align: left;
+    padding-left: 85%;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.collapse p i{
+    color: #015aae;
+}
+
+.collapse p a {
+    text-decoration: none;
+    color: #015aae;
+}
+
+.nav-link{
+    font-size: 1rem !important;
+}
+
+.sections-faq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+}
+
+#faq-text{
+    padding-top: 8rem;
+}
+
+.question-bank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.questions{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.074) ;
+    padding: 2.5%;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+
+#privacy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#privacy-text{
+    padding-top: 8rem;
+}
+
+.privacy-policy{
+    width: 80%;
+    text-align: justify ;
+}
 /* Your existing CSS rules here */
 
 /* Small screens */
